@@ -8,6 +8,8 @@ hr{
     color: #B79A5F;
 }
 
+
+/* Barra de navegacion */
 .navbar-brand{
     font-weight: bold;
     color: black;
@@ -17,10 +19,14 @@ hr{
 .navbar-brand:hover {
     color: #B79A5F;
 }
+
 .navbar-nav{
     font-size: 1em;
     color: black;
 }
+
+
+/* BODY index */
 .body{
     background-color: #B79A5F;
 }
@@ -29,6 +35,11 @@ hr{
     color: black;
     
 }
+
+
+
+
+/* Seccion Contacto */
 .title-contacto{
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
@@ -41,6 +52,7 @@ hr{
     color: #ffffff;
     padding: 0 1.5em;
 }
+
 .content{
     max-width: 1200px;
     margin-left: auto;
@@ -48,20 +60,24 @@ hr{
     padding: 1.5em;
     text-align: center;
 }
+
 .contact-wrapper{
     box-shadow: 0 0 20px 0 #B79A5F;
     padding: 1em;
 }
+
 .contact-form{
     margin: 0;
     padding: 1em;
     display: grid;
 }
+
 .list-contact{
     width: 100%;
     padding: .7em;
     border: none;
 }
+
 .input{
     background: none;
     border: none;
@@ -69,6 +85,7 @@ hr{
     outline: 0;
     color: #fff;
 }
+
 .button-enviar{
     background: #B79A5F;
     border: 0;
@@ -76,31 +93,18 @@ hr{
     padding: 1em;
 
 }
+
 .button-enviar:hover{
     color: #7a6f5a;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Footer */
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .footer{
     background-color: #242628;
     padding: 80px 0;
@@ -110,10 +114,12 @@ hr{
     display: flex;
     flex-wrap: wrap;
 }
+
 .footer-links{
     width: 25%;
     padding: 0 15px;
 }
+
 .footer-links h4{
     font-size: 20px;
     color: #ffffff;
@@ -124,6 +130,7 @@ hr{
     display: inline-block;
     text-align: center;
 }
+
 .footer-links ul li a {
     font-size: 18px;
     text-decoration: none;
@@ -132,11 +139,13 @@ hr{
     margin-bottom: 15px;
     transition: all .3s ease;
 }
+
 .footer-links ul li a:hover {
     color: #B79A5F;
     padding-left: 6px;
 
 }
+
 .social-link a {
     display: inline-block;
     min-height: 40px;
@@ -149,9 +158,11 @@ hr{
     color: #ffffff;
     transition: all .5s ease;
 }
+
 .social-link a:hover {
     background-color: #B79A5F;
 }
+
 @media(max-width:991px) {
     .footer-row{
         text-align: center;

@@ -1,0 +1,48 @@
+.title-contacto {
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  
+  .body-contacto {
+    background-color: #181818;
+    color: #ffffff;
+    padding: 0 1.5em;
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    text-align: center;
+  }
+  
+  .contact-wrapper {
+    box-shadow: 0 0 20px 0 #B79A5F;
+    padding: 1em;
+  }
+  
+  .contact-form {
+    margin: 0;
+    padding: 1em;
+    display: grid;
+  }
+  
+  .list-contact {
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+  }
+  .contact-info-list{
+    list-style: none;
+  }
+  
+  .input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #B79A5F;
+    outline: 0;
+    color: #fff;
+  }
+  
